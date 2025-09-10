@@ -46,8 +46,3 @@ jobs:
         with:
           domain: astro73.com
           root: ./_site
-      - name: Upload (www)
-        uses: teahouse-hosting/upload@trunk
-        with:
-          domain: www.astro73.com
-          root: ./_site
