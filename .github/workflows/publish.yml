@@ -42,7 +42,7 @@ jobs:
           name: website
           path: ./_site
       - name: Upload
-        uses: teahouse-hosting/upload@trunk
+        uses: teahouse-hosting/swiss-army-upload@trunk
         with:
-          domain: astro73.com
-          root: ./_site
+          src: ./_site
+          dest: tea://astro73.com/
